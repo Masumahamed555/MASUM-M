@@ -1,7 +1,7 @@
 module.exports = {
   config:{
     name: "auto",
-    version: "0.0.2",
+    version: "0.2.2",
     permission: 0,
     prefix: true,
     credits: "Fahim",
