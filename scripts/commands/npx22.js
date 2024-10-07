@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("🙂")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "জান মন খারাপ করো আমি সব সময় তোমাকে ভালোবাসি-🙂",
-				attachment: fs.createReadStream(__dirname + `/Nayan/ssstik.io_1721891866438.mp3`)
+				attachment: fs.createReadStream(__dirname + `/Nayan/1721891866438.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("✅", event.messageID, (err) => {}, true)
