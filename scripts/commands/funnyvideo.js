@@ -20,10 +20,10 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
   const request = global.nodemodule["request"];
   const fs = global.nodemodule["fs-extra"];
   
-  var hi = ["🍒 𝗔𝗥𝗬𝗔𝗡  🍒"];
+  var hi = ["🍒 ⎯͢🩷 𝐌𝐀𝐒𝐔𝐌 ⎯͢🩷  🍒"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-    "https://drive.google.com/uc?id=1Zg6YCrfLNFVPuIarV3ZBvyg9NW9vKf-i",
+    "https://i.imgur.com/RRZE92e.mp4",
     "https://drive.google.com/uc?id=1Tu7vjhlkUls3SKSTl-pGK3y69NYgeGMe",
     "https://drive.google.com/uc?id=1vHhwiHHDRJpflMGCU0Alg7A5ARkugLya", 
     "https://drive.google.com/uc?id=1KrHanrUqkqr0kFjFh1abl72xlmZ0_18a",
