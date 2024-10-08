@@ -108,10 +108,10 @@ const first = numberOfOnePage * page - numberOfOnePage;
     const siu = `╭──────•◈•──────╮\n |   𝐌𝐀𝐒𝐔𝐌 𝗛𝗘𝗟𝗣 𝗖𝗠𝗗𝗦 \n |   🄲🄾🄼🄼🄰🄽🄳 🄻🄸🅂🅃       \n╰──────•◈•──────╯`;
 const text = `╭──────•◈•──────╮\n│𝖴𝖲𝖤 ${prefix}help [Name?]\n│𝖴𝖲𝖤 ${prefix}help [Page?]\n│𝖱𝖮𝖡𝖮𝖳 𝖠𝖣𝖬𝖨𝖭 : \n│𝐌𝐀𝐒𝐔𝐌 𝗛𝗘𝗟𝗣 𝗖𝗠𝗗𝗦\n│𝖳𝖮𝖳𝖠𝖫 : [${arrayInfo.length}]\n│✳️𝖯𝖠𝖦𝖤✳️ :  [${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}]\n╰──────•◈•──────╯`; 
     var link = [
-"https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg", "https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg", "https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg", "https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg",
-"https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg",
-"https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg",
-"https://i.postimg.cc/htyR3jM4/IMG-20240921-191525-987.jpg",
+"https://i.imgur.com/CHmNv5N.jpeg", "https://i.imgur.com/CHmNv5N.jpeg", "https://i.imgur.com/CHmNv5N.jpeg", "https://i.imgur.com/CHmNv5N.jpeg",
+"https://i.imgur.com/CHmNv5N.jpeg",
+"https://i.imgur.com/CHmNv5N.jpeg",
+"https://i.imgur.com/CHmNv5N.jpeg",
     ]
      var callback = () => api.sendMessage({ body: siu + "\n\n" + msg  + text, attachment: fs.createReadStream(__dirname + "/cache/loidbutter.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/loidbutter.jpeg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/loidbutter.jpeg")).on("close", () => callback());
