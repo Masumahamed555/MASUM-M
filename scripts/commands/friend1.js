@@ -28,7 +28,7 @@ const media = (
 
   if (body.indexOf("🤍")==0 || body.indexOf("🤝")==0 || body.indexOf("🫶")==0 ||body.indexOf("☺️")==0) {
     var msg = {
-        body: "•❊ ༅⎯͢🩷𝐌𝐀𝐒𝐔𝐌🩷 ❊\n⎯͢𝗕𝗘𝗦𝗧 𝗙𝗥𝗜𝗘𝗡𝗗💘👩🏻‍🤝‍👩🏼🤝_",
+        body: "•❊ ༅⎯͢🩷🩷 ❊\n⎯͢𝗕𝗘𝗦𝗧 𝗙𝗥𝗜𝗘𝗡𝗗💘👩🏻‍🤝‍👩🏼🤝_",
         attachment: media
       }
       api.sendMessage( msg, threadID, messageID);
