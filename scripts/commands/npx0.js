@@ -17,7 +17,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
   const axios = require('axios')
-  const NAYAN = ['https://i.imgur.com/iyNLH0u.mp4','https://i.imgur.com/EjW7Bv3.mp4','https://i.imgur.com/ZPn0wuP.mp4','https://i.imgur.com/npfw648.mp4','https://i.imgur.com/hc52oYZ.mp4','https://i.imgur.com/b8WirjP.mp4']
+  const NAYAN = ['https://i.imgur.com/iyNLH0u.mp4','https://i.imgur.com/EjW7Bv3.mp4','https://i.imgur.com/ZPn0wuP.mp4','https://i.imgur.com/npfw648.mp4','https://i.imgur.com/hc52oYZ.mp4','https://i.imgur.com/b8WirjP.mp4','https://i.imgur.com/dY6jiCV.mp4']
     var rndm = NAYAN[Math.floor(Math.random() * NAYAN.length)];
 const media = (
     await axios.get(
@@ -26,7 +26,7 @@ const media = (
     )
   ).data;
 
-  if (body.indexOf("🙀")==0 || body.indexOf("💥")==0 || body.indexOf("💋")==0 || body.indexOf("🥵")==0 || body.indexOf("🫦")==0 || body.indexOf("👅")==0 || body.indexOf("🫦")==0 || body.indexOf("😾")==0 || body.indexOf("😗")==0 || body.indexOf("🫦")==0 || body.indexOf("🥵")==0 || body.indexOf("😯")==0 || body.indexOf("📉")==0 || body.indexOf("🫦")==0 || body.indexOf("🍎")==0 || body.indexOf("🥵")==0 || body.indexOf("🧺")==0 || body.indexOf("👀")==0 || body.indexOf("👏")==0 || body.indexOf("💦")==0 || body.indexOf("🤷‍♂️")==0  || body.indexOf("👄")==0 || body.indexOf("✉️")==0 || body.indexOf("👑")==0 || body.indexOf("📤")==0 || body.indexOf("💋")==0 || body.indexOf("📥")==0 || body.indexOf("😮‍💨")==0 || body.indexOf("🫥")==0 || body.indexOf("🕛")==0 || body.indexOf("🫦")==0 || body.indexOf("💉")==0 || body.indexOf("🤷‍♀️")==0 || body.indexOf("🤕")==0 || body.indexOf("📧")==0 || body.indexOf("🫦")==0 || body.indexOf("🥵")==0 || body.indexOf("😖")==0 || body.indexOf("💥")==0 || body.indexOf("👿")==0 || body.indexOf("💍")==0 || body.indexOf("⚒️")==0 || body.indexOf("👅")==0 || body.indexOf("👀")==0 || body.indexOf("🤦‍♂️")==0 || body.indexOf("🥵")==0 || body.indexOf("🙆‍♂️")==0 || body.indexOf("🙆‍♀️")==0 || body.indexOf("💏")==0 || body.indexOf("🗣️")==0 || body.indexOf("🫂")==0 || body.indexOf("🐒")==0 || body.indexOf("📡")==0 || body.indexOf("🏵️")==0 || body.indexOf("🌹")==0 || body.indexOf("🥵")==0 || body.indexOf("👀")==0 || body.indexOf("💋")==0 || body.indexOf("🥵")==0 || body.indexOf("💌")==0 || body.indexOf("💊")==0 || body.indexOf("⌛")==0 || body.indexOf("🔔")==0 || body.indexOf("📢")==0 || body.indexOf("🔍")==0 || body.indexOf("🔐")==0 || body.indexOf("🥵")==0  || body.indexOf("🫦")==0) {
+  if (body.indexOf("🥵")==0 || body.indexOf("💥")==0 || body.indexOf("💋")==0 || body.indexOf("💦")==0 || body.indexOf("😽")==0 || body.indexOf("👅")==0 || body.indexOf("🫦")==0 || body.indexOf("😾")==0 || body.indexOf("😗")==0 || body.indexOf("🍷")==0 || body.indexOf("🥂")==0) {
     var msg = {
         body: "•❊ ༅༎🩵𝐁𝐨𝐰 𝐱'𝐚𝐧𝐬🪽༎༅ ❊\n⎯͢⎯⃝🫦🥵.! 🙂\n      🥵 _",
         attachment: media
