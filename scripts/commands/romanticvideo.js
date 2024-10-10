@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
 
   var link = [
     "https://i.imgur.com/xHb1fAb.mp4",
-    "https://i.imgur.com/Dfr2WBS.mp4"'
+    "https://i.imgur.com/Dfr2WBS.mp4",
     "https://i.imgur.com/ZszXvms.mp4",
     "https://i.imgur.com/p1oTrOR.mp4",
     "https://i.imgur.com/1FfSEr9.mp4",
@@ -35,8 +35,7 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
     "https://i.imgur.com/uMTnmF3.mp4",
     "https://i.imgur.com/j4URGzq.mp4",
     "https://i.imgur.com/lo59II6.mp4",
-    "https://i.imgur.com/1Kx2h6k.mp4",
-    "https://i.imgur.com/gyEEGJ4.mp4",
+    "https://i.imgur.com/gyEEGJ4.mp4"
   ];
 
   var callback = () => {
