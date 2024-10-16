@@ -23,8 +23,8 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
   var hi = ["❊ 🥵XxxxX🥵 ❊"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-    "https://drive.google.com/uc?id=1Z-6qll7ACq8Ka1pKpnC3guGcXU0gNvoL",
-    "https://drive.google.com/uc?id=1ZG-BJq7pP4oh93U6tHIKuYvZ8XiidlCV"
+    "https://i.imgur.com/4b9LDS6.mp4",
+    "https://i.imgur.com/FTyuQmv.mp4"
   ];
 
   var callback = () => {
