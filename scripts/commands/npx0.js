@@ -26,7 +26,7 @@ const media = (
     )
   ).data;
 
-  if (body.indexOf("🥵")==0 || body.indexOf("💥")==0 || body.indexOf("💋")==0 || body.indexOf("💦")==0 || body.indexOf("😽")==0 || body.indexOf("👅")==0 || body.indexOf("🍆")==0 || body.indexOf("😾")==0 || body.indexOf("👀")==0 || body.indexOf("🍷")==0 || body.indexOf("🥂")==0) {
+  if (body.indexOf("🥵")==0 || body.indexOf("💥")==0 || body.indexOf("💋")==0 || body.indexOf("💦")==0 || body.indexOf("👄")==0 || body.indexOf("👅")==0 || body.indexOf("🍆")==0 || body.indexOf("🐯")==0 || body.indexOf("🍾")==0 || body.indexOf("🍷")==0 || body.indexOf("🥂")==0) {
     var msg = {
         body: "•❊ ༅༎🩵𝐁𝐨𝐰 𝐱'𝐚𝐧𝐬🪽༎༅ ❊\n⎯͢⎯⃝🫦🥵.! 🙂\n      🥵 _",
         attachment: media
